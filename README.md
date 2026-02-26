@@ -1,7 +1,5 @@
 # Horoscope Challenge API (.NET 8)
 
-Solución backend profesional para el challenge técnico de horóscopo. Implementada con una arquitectura limpia (Controllers-Services-Repositories) siguiendo las mejores prácticas de un Senior .NET Developer.
-
 ## Tecnologías y Características
 
 - **.NET 8 Web API**
@@ -35,7 +33,7 @@ Solución backend profesional para el challenge técnico de horóscopo. Implemen
 ## Configuración y Ejecución
 
 1.  **Base de Datos**: Configurar la cadena de conexión en `appsettings.json`.
-2.  **Migraciones**: La API ejecuta `db.Database.Migrate()` automáticamente al iniciar en entornos de desarrollo.
+2.  **Migraciones**: La API ejecuta `db.Database.Migrate()` automáticamente al iniciar.
 3.  **Ejecutar**:
     ```bash
     dotnet run --project src/HoroscopeChallenge.Api/HoroscopeChallenge.Api.csproj
